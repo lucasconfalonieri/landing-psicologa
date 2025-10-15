@@ -7,7 +7,6 @@ import Testimonials from '@/components/Testimonials'
 import Faq from '@/components/Faq'
 import ContactCta from '@/components/ContactCta'
 import Footer from '@/components/Footer'
-import WhatsAppButton from '@/components/WhatsAppButton'
 import JsonLd from '@/components/JsonLd'
 
 
@@ -25,7 +24,6 @@ return (
 <ContactCta />
 </main>
 <Footer />
-<WhatsAppButton phone="543794395617" preset="Hola, vengo desde la web. ¿Podemos coordinar una sesión inicial?" />
 <JsonLd />
 </>
 )

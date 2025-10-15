@@ -15,7 +15,7 @@ export default function WhatsAppButton({ phone, preset }: { phone: string; prese
       target="_blank"
       aria-label="Chatear por WhatsApp"
       className="fixed bottom-5 right-5 z-50 rounded-full shadow-lg px-5 py-3 text-white font-medium transition hover:opacity-90"
-      style={{ background: "var(--accent)" }}
+      style={{ background: "#16a458" }}
     >
       WhatsApp
     </Link>

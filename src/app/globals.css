@@ -5,9 +5,10 @@
   --text: #2a2a2a;
   --brand: #CC7A5E;
   --brand-contrast: #ffffff;
-  --accent: #5A7577;
+  --accent: #5a775f;
   --muted: #D5DADB;
   --peach: #F4CFBA;
+  --header-bg: #f4dacf;
 }
 
 html { scroll-behavior: smooth; }

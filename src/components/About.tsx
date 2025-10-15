@@ -42,10 +42,6 @@ export default function About() {
             </li>
             <li className="flex gap-2">
               <span className="mt-1 text-[color:var(--brand)]">•</span>
-              <span>Idiomas: Español</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="mt-1 text-[color:var(--brand)]">•</span>
               <span>Particular</span>
             </li>
           </ul>
