@@ -33,7 +33,7 @@ export default function PrivacidadPage() {
           <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-black/5">
             <h3 className="font-medium text-slate-900">Contacto</h3>
             <p className="mt-1 text-sm text-slate-700">
-              WhatsApp: +54 379 433 6568<br />
+              WhatsApp: +54 379 439 5617<br />
               Instagram:{" "}
               <Link
                 href="https://www.instagram.com/psico.mv.confalonieri/"

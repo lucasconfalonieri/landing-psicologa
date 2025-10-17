@@ -1,15 +1,38 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #fffaf7;
-  --text: #2a2a2a;
-  --brand: #CC7A5E;
+  --bg: #f0e6f3;    
+  --text: #21274f;   
+  --brand: #3e6ab1;     
   --brand-contrast: #ffffff;
-  --accent: #5a775f;
-  --muted: #D5DADB;
-  --peach: #F4CFBA;
-  --header-bg: #f4dacf;
+  --accent: #21274f;   
+  --muted: #d1b2d5;    
+  --tint: #e9f2fc;     
+  --surface: #ffffff;  
+  --pattern-opacity: .03;
+  --pattern-size: 560px; 
+  --font-display: "Montserrat Alternates", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --font-body: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --font-script: "Buffalo", cursive;
 }
 
+.body-pattern{
+  position: relative;
+}
+.body-pattern::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  z-index: 0;               
+  pointer-events: none;
+  background-image: url("/brand/pattern.png");
+  background-repeat: repeat;
+  background-size: var(--pattern-size);
+  opacity: var(--pattern-opacity); 
+}
 html { scroll-behavior: smooth; }
-body { background: var(--bg); color: var(--text); }
+body { background: var(--bg); color: var(--text) }
+
+.font-display { font-family: var(--font-display); letter-spacing: -0.01em; }
+.font-body    { font-family: var(--font-body); }
+.font-script  { font-family: var(--font-script); letter-spacing: .2px; }

@@ -10,21 +10,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        brand: {
-          50: "#fff3ef",
-          100: "#ffe4d9",
-          200: "#f9ccb9",
-          300: "#f1ad93",
-          400: "#e58c6f",
-          500: "#CC7A5E",
-          600: "#b1614a",
-          700: "#8f4d3b",
-          800: "#6f3c2f",
-          900: "#5a3127",
-        },
-        peach: "#F4CFBA",
-        mist: "#D5DADB",
-        teal: "#5A7577",
+        brand:   { DEFAULT: "#3e6ab1" },
+        lilac:   "#d1b2d5",
+        navy:    "#21274f",
+        tint:    "#e9f2fc",
+        surface: "#ffffff",
+        bgsoft:  "#f0e6f3",
       },
     },
   },
